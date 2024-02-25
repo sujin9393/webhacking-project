@@ -27,4 +27,4 @@ def wordsCount(text):
     return len(words) #리스트의 길이를 반환하여 단어 수 세어줌 
 
 input_text = input("문자열을 입력하세요: ") #입력 문자열 받기 
-print("입력한 문자열의 단어 수는 " + str(wordsCount(input_text))) #wordsCount 함수에서 단어 수 세고 출력 
+print("입력한 문자열의 단어 수는 " + wordsCount(input_text)) #wordsCount 함수에서 단어 수 세고 출력 

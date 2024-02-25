@@ -1,3 +1,4 @@
 {
     "cmake.configureOnOpen": true
+    "php.validate.executablePath": "null"
 }
